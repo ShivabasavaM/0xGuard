@@ -1,5 +1,6 @@
 scapy
 pandas
 scikit-learn
+streamlit
+plotly
 joblib
-numpy

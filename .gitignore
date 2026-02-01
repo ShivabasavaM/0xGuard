@@ -1,0 +1,20 @@
+# Python internals
+__pycache__/
+*.py[cod]
+
+# Virtual Environment (NEVER push this)
+venv/
+env/
+.env
+
+# Logs and Data
+logs/
+data/
+*.csv
+*.log
+
+# Mac OS specific
+.DS_Store
+
+# IDE specific
+.vscode/
