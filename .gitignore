@@ -1,20 +1,20 @@
-# Python internals
-__pycache__/
-*.py[cod]
-
-# Virtual Environment (NEVER push this)
+# Ignore the virtual environment (We build a fresh one inside Docker)
 venv/
 env/
 .env
 
-# Logs and Data
+# Ignore Git history (Saves space)
+.git/
+.gitignore
+
+# Ignore local logs and data (Start fresh)
 logs/
 data/
 *.csv
 *.log
 
-# Mac OS specific
+# Ignore Python caches
+__pycache__/
+*.py[cod]
 .DS_Store
-
-# IDE specific
 .vscode/
